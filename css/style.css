@@ -1,6 +1,7 @@
 body{
     font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 .title{
     font-size: 50px;
@@ -13,7 +14,7 @@ body{
 .blue-color{
     color: rgb(98, 0, 255);
 }
-.align-center{
+.title-alignment{
     text-align: center;
 }
 .button{
@@ -64,4 +65,36 @@ body{
 #common-img{
     width: 40%;
     margin-left: 10%;
+}
+.community-bg{
+    background-image: url(../shapes/shape-1.png);
+    background-size: 250px ;
+    background-repeat: no-repeat;
+    background-position:  right;
+}
+.develop-bg{
+    background-image: url(../shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px ;
+    background-position: left;
+}
+input{
+    height: 40px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px
+}
+/* footer  */
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.footer-span{
+    color: rgb(226, 53, 53);
+}
+.footer-text{
+    text-align: center;
+    color: white;
 }
