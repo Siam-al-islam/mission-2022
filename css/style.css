@@ -27,6 +27,7 @@ body{
 .container{
     display: flex;
     padding: 40px;
+    margin-top: 3%;
 }
 .half-width{
     width: 50%;
@@ -55,4 +56,12 @@ body{
 }
 .boxes{
     justify-content: center;
+}
+.common-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+#common-img{
+    width: 40%;
+    margin-left: 10%;
 }
